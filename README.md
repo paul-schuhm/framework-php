@@ -1,12 +1,20 @@
 # Framework PHP
 
 - [Framework PHP](#framework-php)
+  - [Démos](#démos)
+  - [Corrections d'exercices](#corrections-dexercices)
   - [Références utiles](#références-utiles)
     - [Dépôts connexes](#dépôts-connexes)
   - [Symfony](#symfony)
   - [Ouvrages](#ouvrages)
 
-En cours de construction...
+## Démos
+
+- [Autoloading avec Composer](./demos/composer-autoloading/);
+
+## Corrections d'exercices
+
+- [Corrections des exercices sur les rappels POO et PHP](./corrections/)
 
 ## Références utiles
 

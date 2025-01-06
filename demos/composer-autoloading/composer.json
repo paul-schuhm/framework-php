@@ -1,0 +1,17 @@
+{
+    "name": "paul/demo-composer-autoloading",
+    "autoload": {
+        "psr-4": {
+            "MDS\\DemoAutoloading\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "p schuhmacher",
+            "email": "contact@pschuhmacher.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^7.2"
+    }
+}
