@@ -24,6 +24,7 @@
 - [Dépôt POO et Design Patterns avec PHP](https://github.com/paul-schuhm/design-patterns)
 - [Dépôt veille PHP](https://github.com/paul-schuhm/veille-php)
 - [Dépôt starter Symfony](https://github.com/paul-schuhm/symfony-starter-bibliotheque), *à mettre à jour*;
+- [Dépôt implémentation MVC en *vanilla* php](https://github.com/paul-schuhm/mvc-vanilla-php)
 
 ## Symfony
 
@@ -33,3 +34,4 @@
 
 - [*Modern PHP*](https://www.oreilly.com/library/view/modern-php/9781491905173/), de Josh Lockhart publié chez O'REILLY (2015)
 - [Symfony 5, Développez des sites web PHP structurés et performants](https://www.editions-eni.fr/livre/symfony-5-developpez-des-sites-web-php-structures-et-performants-9782409037221), d'Etienne langlet, publié chez ENI Éditions (2022)
+- [En route pour Symfony (fr)](https://symfony.com/doc/6.4/the-fast-track/fr/index.html), livre de [Fabien Potencier](https://booknode.com/auteur/fabien-potencier/biographie) (créateur de Symofny), version française en ligne gratuite
