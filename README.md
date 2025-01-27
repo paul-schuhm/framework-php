@@ -13,6 +13,7 @@
 ## Démos
 
 - [Autoloading avec Composer](./demos/composer-autoloading/);
+- [Différence entre `static` et `self` (PHP)](./demos/php:static-vs-self/)
 
 ## Corrections d'exercices
 
