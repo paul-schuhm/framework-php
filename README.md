@@ -16,7 +16,8 @@
 
 ## Corrections d'exercices
 
-- [Corrections des exercices sur les rappels POO et PHP](./corrections/)
+- [Corrections des exercices sur les rappels POO et PHP](./corrections/poo-exercice1/)
+- [Corrections des exercices sur Symfony](./corrections/symfony/)
 
 ## Références utiles
 
