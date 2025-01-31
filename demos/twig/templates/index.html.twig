@@ -18,7 +18,13 @@
 			<p>Contenu principal de la page home</p>
 		{% endblock %}
 
-		{% include "parts/footer.html.twig" %}
+
+		<footer>
+			{% block footer %}
+				{% include "parts/footer.html.twig" %}
+			{% endblock %}
+		</footer>
+
 
 		{% block script %}
 			<script>
