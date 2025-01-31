@@ -1,0 +1,17 @@
+{
+    "name": "paul/twig",
+    "autoload": {
+        "psr-4": {
+            "Paul\\Twig\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "p schuhmacher",
+            "email": "contact@pschuhmacher.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}
