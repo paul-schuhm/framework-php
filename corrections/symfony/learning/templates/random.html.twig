@@ -1,0 +1,15 @@
+{% extends "base.html.twig" %}
+
+{% block stylesheets %}
+	<link rel="stylesheet" href="/css/base.css">
+{% endblock %}
+
+{% block body %}
+
+	<p>
+		{% for number in numbers %}
+			<span class="{{ number is even ? 'even' : 'odd' }}">{{number}}</span>
+		{% endfor %}
+	</p>
+
+{% endblock %}

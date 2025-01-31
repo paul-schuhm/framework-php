@@ -4,34 +4,26 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Document</title>
+		{% block style %}
+			<link rel="stylesheet" href="/assets/css/main.css">
+		{% endblock %}
 	</head>
 	<body>
-
 		<header>
 			{% include "parts/navbar.html.twig" %}
 			<h1>Apprendre Twig</h1>
 		</header>
 
-
 		{% block main %}
-			{#Par défaut, les valeurs sont échapées#}
-			<p>{{message}}</p>
+			<p>Contenu principal de la page home</p>
+		{% endblock %}
 
-			<h2>Profil</h2>
+		{% include "parts/footer.html.twig" %}
 
-			{#Composer les filtres/fonctions pour transformer les données et les mettre en forme. Il est possible de créer vos propres filtres. @see: https://twig.symfony.com/doc/3.x/advanced.html#filters#}
-			<p>{{user.fullName | split(' ') | map(part => part | capitalize) | join(' ')}}</p>
-
-			{{dump(user)}}
-
-			<h2>Nombres pairs</h2>
-
-			<ul>
-
-				{% for number in numbers | filter (number => number is odd)  %}
-					<li>{{number}}</li>
-				{% endfor %}
-			</ul>
+		{% block script %}
+			<script>
+				console.log('home')
+			</script>
 		{% endblock %}
 	</body>
 </html>

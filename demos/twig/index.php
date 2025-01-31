@@ -6,7 +6,7 @@ require 'vendor/autoload.php';
 //Configuration, initialisation de Twig
 $loader = new \Twig\Loader\FilesystemLoader('templates');
 $twig = new \Twig\Environment($loader, [
-    'debug' => true,
+    'cache' => 'cache'
 ]);
 $twig->addExtension(new \Twig\Extension\DebugExtension());
 
