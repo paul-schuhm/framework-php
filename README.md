@@ -14,6 +14,7 @@
 
 - [Autoloading avec Composer](./demos/composer-autoloading/);
 - [Différence entre `static` et `self` (PHP)](./demos/php:static-vs-self/)
+- [Twig (sandalone)](./demos/twig)
 
 ## Corrections d'exercices
 
