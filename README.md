@@ -28,6 +28,7 @@
 - [POO et Design Patterns avec PHP](https://github.com/paul-schuhm/design-patterns)
 - [Veille PHP](https://github.com/paul-schuhm/veille-php)
 - [Implémentation MVC en *vanilla* php](https://github.com/paul-schuhm/mvc-vanilla-php)
+- [Démo application sur la sécurisation des ressources](https://github.com/paul-schuhm/app-symfony), login/logout, signup avec validation de compte par email, etc.
 
 ### Symfony
 
